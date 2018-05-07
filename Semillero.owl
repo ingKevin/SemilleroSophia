@@ -1,0 +1,507 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kevin/ontologies/2018/1/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kevin/ontologies/2018/1/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/kevin/ontologies/2018/1/untitled-ontology-6"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Producciones_académicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actividades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teléfono"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cronograma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cédula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estudiante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resumen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observaciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Correo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fecha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Introducción"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Docente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciudad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Duración"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conclusiones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estructura_metodológica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fecha_de_inicio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ubicación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Usuario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carrera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estudio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Unico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bibliografía"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lenguaje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Externo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extensión"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#País"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinculado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tarea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facultad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palabras_clave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objetivos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descripción"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semillero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Métodos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Específico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Miembro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fecha_de_entrega"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan_de_trabajo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institución"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glosario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dfsd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Título"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Actividades"/>
+        <Class IRI="#Cronograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autor"/>
+        <Class IRI="#Producciones_académicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bibliografía"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calidad"/>
+        <Class IRI="#Video"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrera"/>
+        <Class IRI="#Estudiante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciudad"/>
+        <Class IRI="#Ubicación"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conclusiones"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Correo"/>
+        <Class IRI="#Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cronograma"/>
+        <Class IRI="#Plan_de_trabajo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cédula"/>
+        <Class IRI="#Estudiante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Descripción"/>
+        <Class IRI="#Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docente"/>
+        <Class IRI="#Rol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documento"/>
+        <Class IRI="#Tipo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Duración"/>
+        <Class IRI="#Video"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edad"/>
+        <Class IRI="#Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Específico"/>
+        <Class IRI="#Objetivos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estructura_metodológica"/>
+        <Class IRI="#Semillero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estudiante"/>
+        <Class IRI="#Rol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estudio"/>
+        <Class IRI="#Docente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extensión"/>
+        <Class IRI="#Producciones_académicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Externo"/>
+        <Class IRI="#Rol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facultad"/>
+        <Class IRI="#Estudiante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fecha"/>
+        <Class IRI="#Producciones_académicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fecha_de_entrega"/>
+        <Class IRI="#Actividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fecha_de_inicio"/>
+        <Class IRI="#Actividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General"/>
+        <Class IRI="#Objetivos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glosario"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ID"/>
+        <Class IRI="#Estudiante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indice"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Institución"/>
+        <Class IRI="#Ubicación"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Introducción"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lenguaje"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Miembro"/>
+        <Class IRI="#Actividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Métodos"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre"/>
+        <Class IRI="#Producciones_académicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre"/>
+        <Class IRI="#Semillero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre"/>
+        <Class IRI="#Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objetivos"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objetivos"/>
+        <Class IRI="#Plan_de_trabajo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observaciones"/>
+        <Class IRI="#Actividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palabras_clave"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#País"/>
+        <Class IRI="#Ubicación"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan_de_trabajo"/>
+        <Class IRI="#Estructura_metodológica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producciones_académicas"/>
+        <Class IRI="#Semillero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resumen"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rol"/>
+        <Class IRI="#Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Tipo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tarea"/>
+        <Class IRI="#Actividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teléfono"/>
+        <Class IRI="#Estudiante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo"/>
+        <Class IRI="#Producciones_académicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Título"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URL"/>
+        <Class IRI="#Producciones_académicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ubicación"/>
+        <Class IRI="#Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video"/>
+        <Class IRI="#Tipo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinculado"/>
+        <Class IRI="#Usuario"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Autor"/>
+        <Class IRI="#Fecha"/>
+        <Class IRI="#Nombre"/>
+        <Class IRI="#Tipo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bibliografía"/>
+        <Class IRI="#Conclusiones"/>
+        <Class IRI="#Glosario"/>
+        <Class IRI="#Indice"/>
+        <Class IRI="#Introducción"/>
+        <Class IRI="#Métodos"/>
+        <Class IRI="#Objetivos"/>
+        <Class IRI="#Palabras_clave"/>
+        <Class IRI="#Resumen"/>
+        <Class IRI="#Título"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Calidad"/>
+        <Class IRI="#Duración"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Carrera"/>
+        <Class IRI="#Cédula"/>
+        <Class IRI="#Facultad"/>
+        <Class IRI="#ID"/>
+        <Class IRI="#Teléfono"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Carrera"/>
+        <Class IRI="#Facultad"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ciudad"/>
+        <Class IRI="#Institución"/>
+        <Class IRI="#País"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Conclusiones"/>
+        <Class IRI="#Glosario"/>
+        <Class IRI="#Indice"/>
+        <Class IRI="#Introducción"/>
+        <Class IRI="#Métodos"/>
+        <Class IRI="#Objetivos"/>
+        <Class IRI="#Palabras_clave"/>
+        <Class IRI="#Resumen"/>
+        <Class IRI="#Título"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Correo"/>
+        <Class IRI="#Descripción"/>
+        <Class IRI="#Edad"/>
+        <Class IRI="#Nombre"/>
+        <Class IRI="#Rol"/>
+        <Class IRI="#Ubicación"/>
+        <Class IRI="#Vinculado"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Correo"/>
+        <Class IRI="#Edad"/>
+        <Class IRI="#Nombre"/>
+        <Class IRI="#Rol"/>
+        <Class IRI="#Vinculado"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cronograma"/>
+        <Class IRI="#Objetivos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Docente"/>
+        <Class IRI="#Estudiante"/>
+        <Class IRI="#Externo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Documento"/>
+        <Class IRI="#Software"/>
+        <Class IRI="#Video"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Específico"/>
+        <Class IRI="#General"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fecha_de_entrega"/>
+        <Class IRI="#Fecha_de_inicio"/>
+        <Class IRI="#Miembro"/>
+        <Class IRI="#Observaciones"/>
+        <Class IRI="#Tarea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Rol"/>
+        <Class IRI="#Vinculado"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nombre</IRI>
+        <AbbreviatedIRI>xsd:Name</AbbreviatedIRI>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
